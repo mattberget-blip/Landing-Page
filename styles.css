@@ -6,6 +6,117 @@ body{
     margin: 0;
 }
 
+.header {
+    background-color: #1F2937;
+    padding-bottom: 80px;
+    color: white;
+}
+
+.header-inner-container {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.header-nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-horizontal-hero-section {
+    display: flex;
+    gap: 40px;
+}
+
+.hero-left-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    max-width: 40ch;
+}
+
+.main-title {
+    margin-bottom: 0;
+}
+
+.subtext {
+    margin-top: 0px;
+}
+
+.hero-button {
+    background: #3882F6;
+    border: 1px solid #3882F6;
+    border-radius: 8px;
+    font-size: 13px;
+    line-height: 1.2;
+    color: inherit;
+    cursor: pointer;
+    padding: 16px 32px;
+    appearance: none;
+    align-self: flex-start;
+    display: inline;
+}
+
+.hero-right-container {
+    background-color: gray;
+    color: white;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    margin: auto;
+    text-align: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 16px;
+    text-align: right;
+}
+
+.random-info-section {
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 60px;
+
+}
+
+.random-info-inner-section {
+    width: 60%;
+    margin: auto;
+}
+
+.random-info-text {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.outer-horizontal-flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 16px;
+}
+
+.inner-vertical-flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.blue-box {
+    border: 2px solid #3882F6;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.caption {
+    text-align: center;
+    font-size: 10px;
+}
+
 .quote-section {
     background-color: #E5E7EB;
     padding: 80px 0;
@@ -29,13 +140,13 @@ body{
 }
 
 .call-to-action-section{
-    padding: 40px 0;
+    padding: 20px 0;
     
 }
 
 .call-to-action-container {
     background-color: #3882F6;
-    width: 80%;
+    width: 60%;
     margin: auto;
     border-radius: 8px;
 }
@@ -43,7 +154,7 @@ body{
 .call-to-action-inner-container {
     display: flex;
     color: white;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     gap: 32px;
 }
@@ -63,17 +174,19 @@ body{
 .call-to-action-text2 {
     margin: 0;
     padding: 15px 40px;
-    padding-top: 5px;
+    padding-top: 0px;
 }
 
-button {
+.call-to-action-signup-button{
     background: none;
     border: 1px solid white;
     border-radius: 8px;
-    font: 12px;
+    font-size: 12px;
+    line-height: 1.2;
     color: inherit;
     cursor: pointer;
     padding: 8px 24px;
+    appearance: none; 
 }
 
 .footer{
