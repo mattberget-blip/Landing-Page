@@ -1,0 +1,85 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    margin: 0;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 80px 0;
+}
+
+.quote-inner-container {
+    width: 60%;
+    margin: auto;
+}
+
+.quote{
+    margin: 0;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.author {
+    margin-bottom: 0;
+    text-align: right;
+}
+
+.call-to-action-section{
+    padding: 40px 0;
+    
+}
+
+.call-to-action-container {
+    background-color: #3882F6;
+    width: 80%;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.call-to-action-inner-container {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.call-to-action-vertical-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.call-to-action-text {
+    margin: 0;
+    padding: 15px 40px;
+    padding-bottom: 0;
+}
+
+.call-to-action-text2 {
+    margin: 0;
+    padding: 15px 40px;
+    padding-top: 5px;
+}
+
+button {
+    background: none;
+    border: 1px solid white;
+    border-radius: 8px;
+    font: 12px;
+    color: inherit;
+    cursor: pointer;
+    padding: 8px 24px;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: white;
+    padding: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
